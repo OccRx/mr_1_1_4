@@ -1,8 +1,0 @@
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\Main.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\model\User.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\service\UserService.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\util\Util.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\dao\UserDaoHibernateImpl.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\dao\UserDao.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\service\UserServiceImpl.java
-D:\mr_1_1_4\src\main\java\jm\task\core\jdbc\dao\UserDaoJDBCImpl.java

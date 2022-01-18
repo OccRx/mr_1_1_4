@@ -29,7 +29,7 @@ public class Util {
                 properties.put(Environment.URL, URL);
                 properties.put(Environment.USER, UNAME);
                 properties.put(Environment.PASS, PAS);
-                //properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
+                properties.put(Environment.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
                 //properties.put(Environment.SHOW_SQL, "true");
                 //properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
                 //properties.put(Environment.HBM2DDL_AUTO, "create-drop");
@@ -48,13 +48,7 @@ public class Util {
         return sessionFactory;
     }
 
-    public static Connection getConnection() {
-        Connection connection = null;
-        try {
-            connection =  DriverManager.getConnection(URL,UNAME,PAS);
-        } catch (SQLException e) {
-            System.out.println("Conn FAIL" + e);
-        }
-        return connection;
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(URL,UNAME,PAS);
     }
 }
